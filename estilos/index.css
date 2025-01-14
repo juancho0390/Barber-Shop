@@ -1,0 +1,196 @@
+body {
+    background-color: black;
+}
+
+.contenedor-titulo {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+
+
+
+.titulo {
+    color: rgb(202, 0, 0);
+    font-family: Bills-Mafia;
+    font-size: 6rem;
+    text-align: right;
+    align-content: center;
+    
+}
+
+.logo {
+    background-image: url("/assets/imagenes/deer-logo.png");
+    width: 200px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.eslogan {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    
+
+}
+
+@font-face {
+    font-family: Cursiva;
+    src: url(/assets/fuentes/celina_diary/Celina-Diary-Personal-Use.otf);
+}
+
+@font-face {
+    font-family: Bills-Mafia;
+    src: url(/assets/fuentes/bills_mafia/Bills-Mafia.ttf);
+}
+
+@font-face {
+    font-family: Signature;
+    src: url(/assets/fuentes/brilian_signature/Brilian-Signature.otf);
+}
+
+li {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 0 40px 0 40px;
+    height: 3rem;
+    align-content: center;
+    
+}
+
+.hola {
+    transition: 400ms ease-in-out;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 0, 0);
+}
+
+.hola:hover {
+    transform:translateY(-60px);
+    cursor: pointer;
+    background-color: rgb(119, 0, 0);
+    border-radius: 25px 25px 0 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.descripcion {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2% 0 2% 0;
+}
+
+.contenedor-central {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    place-items: center;
+    font-weight: lighter;
+    width: auto;
+}
+
+.contenedor-izq {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0;
+    padding: 0% 3% 0 3%;
+    font-size: 1rem;
+    /* border: 8px solid rgb(190, 0, 0); */
+    height: 100%;
+    transform: translateY(-30px);
+}
+.contenedor-izq2 {
+    justify-items: right;
+}
+
+.contenedor-der {
+    /* border: 8px solid red; */
+    width: 80%;
+    height: 100%;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.contenedor-der2 {
+    padding: 5% 10% 0 10%;
+}
+
+.seccion {
+    color: red;
+    font-family: Bills-Mafia;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1%;
+}
+
+
+.personal {
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(190, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: cursiva;
+    font-size: 1.8rem;
+    border-radius: 25px;
+    width: auto;
+    margin: 1%;
+    padding: 2% 3% 2% 3%;
+    transition: 300ms ease-in-out;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    background-color: rgb(180, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.presentacion {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding: 5% 0 15% 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nombre {
+    text-align: center;
+    font-family: Bills-Mafia;
+    font-size: 4rem;
+
+}
+
+.firma {
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+
