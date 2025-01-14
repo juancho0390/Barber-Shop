@@ -25,29 +25,32 @@ function desc(n){
         case 1:
             nombre.textContent = nombres[0]
             desc.textContent = descripciones[0]
-            foto.style.backgroundImage = 'url("/assets/imagenes/jack.jpg")';
+            foto.style.backgroundImage = 'url("assets/imagenes/jack.jpg")';
             firma.textContent = "Black Jack"
             break
 
         case 2:
             nombre.textContent = nombres[1]
             desc.textContent = descripciones[1]
-            foto.style.backgroundImage = 'url("/assets/imagenes/john.jpg")';
+            foto.style.backgroundImage = 'url("assets/imagenes/john.jpg")';
             firma.textContent = "Lil John"
             break
 
         case 3:
             nombre.textContent = nombres[2]
             desc.textContent = descripciones[2]
-            foto.style.backgroundImage = 'url("/assets/imagenes/lester.jpg")';
+            foto.style.backgroundImage = 'url("assets/imagenes/lester.jpg")';
             firma.textContent = "Crazy Lester"
             break
 
         case 4:
             nombre.textContent = nombres[3]
             desc.textContent = descripciones[3]
-            foto.style.backgroundImage = 'url("/assets/imagenes/mike.jpg")';
+            foto.style.backgroundImage = 'url("assets/imagenes/mike.jpg")';
             firma.textContent = "Magic Mike"
             break
     }
 }
+
+
+document.addEventListener('DOMContentLoaded', desc(1));

@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-    background-image: url("/assets/imagenes/deer-logo.png");
+    background-image: url("../assets/imagenes/deer-logo.png");
     width: 200px;
     height:150px;
     background-repeat: no-repeat;
@@ -33,23 +33,24 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
+    padding: 0 0 0 5%;
     
 
 }
 
 @font-face {
     font-family: Cursiva;
-    src: url(/assets/fuentes/celina_diary/Celina-Diary-Personal-Use.otf);
+    src: url(../assets/fuentes/celina_diary/Celina-Diary-Personal-Use.otf);
 }
 
 @font-face {
     font-family: Bills-Mafia;
-    src: url(/assets/fuentes/bills_mafia/Bills-Mafia.ttf);
+    src: url(../assets/fuentes/bills_mafia/Bills-Mafia.ttf);
 }
 
 @font-face {
     font-family: Signature;
-    src: url(/assets/fuentes/brilian_signature/Brilian-Signature.otf);
+    src: url(../assets/fuentes/brilian_signature/Brilian-Signature.otf);
 }
 
 li {
