@@ -79,13 +79,13 @@ function icons() {
 const servicios = ["Cortes Clasicos y Modernos", "Arreglo de Barba y Bigote", "Afeitado Clasico con Navaja", "Tratamientos Capilares", "Servicio Premium Spa Masculino", "Estilismo Personalizado", "Productos Exclusivos Masculinos", " Wisky, Musica y Camaraderia"]
 
 const descServicios = [ "Recupera la esencia de la masculinidad con cortes que reflejan estilo y carácter. Desde los clásicos hasta los estilos modernos y desvanecidos, cada servicio está diseñado para resaltar tu personalidad y presencia.",
-                        "Define tu estilo con precisión. Ofrecemos recortes tradicionales, perfilados nítidos y tratamientos especiales que garantizan una barba impecable. Tu imagen, reflejo de tu fuerza y confianza.",
+                        "Define tu estilo con precisión. Ofrecemos recortes tradicionales, perfilados nítidos y tratamientos especiales que garantizan una barba impecable. Nuestro objetivo, tu imagen, reflejo de tu fuerza y confianza.",
                         "Experimenta el ritual del afeitado como en los viejos tiempos. Un proceso relajante que incluye toallas calientes, aceites esenciales y un afeitado al ras, diseñado para revitalizar tu piel y resaltar tu masculinidad.",
                         "Cuidar tu cabello es parte de proyectar una imagen sólida. Ofrecemos soluciones para fortalecer, hidratar y mantener un cuero cabelludo saludable, porque la verdadera masculinidad también está en el cuidado personal.",
                         "Relájate y recarga energías con masajes para cuero cabelludo, faciales refrescantes y tratamientos antiestrés, adaptados especialmente para el hombre moderno que busca equilibrio sin perder su esencia varonil.",
-                        "Nuestro equipo de barberos expertos te asesora para que encuentres el estilo que mejor se adapte a tu rostro, estilo de vida y personalidad. Porque cada hombre merece destacar de manera auténtica.",
+                        "Nuestro equipo de barberos expertos te asesora para que encuentres el estilo que mejor se adapte a tu rostro, estilo de vida y personalidad. Porque cada hombre merece destacar de manera unica y auténtica.",
                         "Encuentra productos de calidad premium diseñados específicamente para el cuidado masculino. Desde ceras y pomadas hasta aceites para barba, todo lo que necesitas para mantener tu imagen impecable.",
-                        "Sumérgete en un espacio diseñado para hombres, donde la tradición, el estilo y la camaradería se encuentran. Música, decoración y atención personalizada que te hacen sentir parte de algo especial."]
+                        "Sumérgete en un espacio diseñado para hombres, donde la tradición, el estilo y la camaradería se encuentran. Música, Wisky, decoración y atención personalizada para hacerte sentir parte de algo especial."]
 
 
 function desc_serv(n){
@@ -98,6 +98,7 @@ function desc_serv(n){
     foto.style.backgroundRepeat = 'no-repeat';
     foto.style.backgroundPosition = 'center';
     foto.style.borderRadius = '100%';
+    
 
     switch (n) {
         case 1:
