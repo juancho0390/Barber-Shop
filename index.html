@@ -18,42 +18,89 @@
         <hr><hr>
     </div>
 
-    <div class="seccion">NOSOTROS</div>
-
-    <section class="contenedor-central">
-        <div class="contenedor-izq2">
-            <div class="contenedor-izq">
-                <div class="logo"></div>
-                <div class="descripcion">
-                    Celebramos la esencia de la masculinidad a través del arte clásico del cuidado personal.
-                    Somos un espacio diseñado para hombres que valoran la tradición, el estilo y la confianza.
-                    Aquí, cada corte no solo es un servicio, sino un ritual que refuerza tu identidad
-                    y proyecta tu mejor versión.
-                </div>
-                <div class="descripcion">¡Conocenos!</div>
-                <div class="personal">
-                    <button onmouseover="desc(1)">Jack</button>
-                    <button onmouseover="desc(2)">John</button>
-                    <button onmouseover="desc(3)">Lester</button>
-                    <button onmouseover="desc(4)">Mike</button>
-                </div>
-            
-            </div>
-        </div>
-
-        <div class="contenedor-der3">
-            <div class="contenedor-der">
-                <div class="contenedor-der2">
-                    <div class="nombre"></div>
-                    <div class="presentacion"></div>
-                    <div class="firma"></div>
+    
+    <section class="seccion-principal" id="seccion-1">
+        <div class="seccion">NOSOTROS</div>
+    
+        <div class="contenedor-central">
+            <div class="contenedor-izq2">
+                <div class="contenedor-izq">
+                    <div class="logo"></div>
+                    <div class="descripcion">
+                        Celebramos la esencia de la masculinidad a través del arte clásico del cuidado personal.
+                        Somos un espacio diseñado para hombres que valoran la tradición, el estilo y la confianza.
+                        Aquí, cada corte no solo es un servicio, sino un ritual que refuerza tu identidad
+                        y proyecta tu mejor versión.
+                    </div>
+                    <div class="descripcion">¡Conocenos!</div>
+                    <div class="personal">
+                        <button onmouseover="desc(1)">Jack</button>
+                        <button onmouseover="desc(2)">John</button>
+                        <button onmouseover="desc(3)">Lester</button>
+                        <button onmouseover="desc(4)">Mike</button>
+                    </div>
     
                 </div>
-                
-                <div class="foto"></div>
             </div>
+    
+            <div class="contenedor-der1">
+                <div class="contenedor-der2">
+                    <div class="contenedor-der3">
+                        <div class="nombre"></div>
+                        <div class="presentacion"></div>
+                        <div class="firma"></div>
+    
+                    </div>
+    
+                    <div class="foto"></div>
+                </div>
+            </div>
+    
         </div>
+    </section>
 
+    <section class="seccion-principal" id="seccion-2">
+        <div class="seccion">SERVICIOS</div>
+    
+        <div class="contenedor-central">
+            <div class="contenedor-izq2">
+                <div class="contenedor-izq">
+                    <div class="logo"></div>
+                    <div class="descripcion">
+                        La esencia masculina se vive en cada detalle. Somos un espacio donde tradición y estilo se fusionan para resaltar tu carácter y personalidad. Aquí, el cuidado personal no es solo un servicio, es un ritual diseñado para el hombre moderno que valora su imagen y confianza.
+                    </div>
+                    <div class="descripcion">Conoce nuestros servicios</div>
+                    <div class="botones-servicios">
+                        <button class="boton-servicio" id="1" onmouseover="desc_serv(1)"></button>
+                        <button class="boton-servicio" id="2" onmouseover="desc_serv(2)"></button>
+                        <button class="boton-servicio" id="3" onmouseover="desc_serv(3)"></button>
+                        <button class="boton-servicio" id="4" onmouseover="desc_serv(4)"></button>
+                        <button class="boton-servicio" id="5" onmouseover="desc_serv(5)"></button>
+                        <button class="boton-servicio" id="6" onmouseover="desc_serv(6)"></button>
+                        <button class="boton-servicio" id="7" onmouseover="desc_serv(7)"></button>
+                        <button class="boton-servicio" id="8" onmouseover="desc_serv(8)"></button>
+                        
+                        
+                        
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="contenedor-der4">
+                <div class="contenedor-der5">
+                    <div class="contenedor-der6">
+                        <div class="servicio"></div>
+                        <div class="descServicio"></div>
+                        
+    
+                    </div>
+    
+                    <div class="foto-servicio"></div>
+                </div>
+            </div>
+    
+        </div>
     </section>
 
 
@@ -61,18 +108,18 @@
 
     <footer>
         <ul>
-            <div class="hola">
+            <div class="menu" onclick="mostrar(0)">
                 <li>Nosotros</li>
             </div>
-            <label>
+            <div class="menu" onclick="mostrar(1)">
                 <li>Servicios</li>
-            </label>
-            <label>
+            </div>
+            <div class="menu">
                 <li>Sedes</li>
-            </label>
-            <label>
+            </div>
+            <div class="menu">
                 <li>Contacto</li>
-            </label>
+            </div>
 
             
         </ul>
