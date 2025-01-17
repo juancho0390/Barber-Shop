@@ -395,3 +395,113 @@ h3 {
 :focus {
     outline: 1px solid white;
 }
+
+
+
+
+
+
+/*Parte responsive*/
+
+@media (max-width: 476px) {
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .logo{
+        height: 150px;
+        width: 100px;
+    }
+
+    .eslogan {
+        font-size: 1rem;
+    }
+
+    .seccion {
+        font-size: 1rem;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .contenedor-central {
+        display: block;
+        flex-direction: row;
+
+    }
+
+    .descripcion {
+        font-size: 0.8rem;
+        padding: 2%;
+    }
+
+    .contenedor-izq2 {
+        justify-items: center;
+    }
+
+    .contenedor-izq {
+        width: auto;
+        display: inline;
+        transform: translateY(10px);
+    }
+    
+    .presentacion {
+        font-size: 0.8rem;
+        padding: 1% 2% 2%;
+    }
+
+    .contenedor-der2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contenedor-der1 {
+        width: 100%;
+        justify-items: center;
+    }
+
+    .footer {
+        font-size: 0.5rem;
+        position: absolute;
+
+    }
+
+    .nombre {
+        font-size: 1.8rem;
+    }
+    
+    .contenedor-der3 {
+        width: 100%;
+    }
+
+    .firma {
+        font-size: 3rem;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+
+    .foto {
+        width: 200px;
+        height: 200px;
+        
+        
+    }
+
+    .personal {
+        padding: 2% 0 0 0;
+    }
+}
