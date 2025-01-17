@@ -200,25 +200,33 @@ function mostrar(n) {
 
   switch (n) {
     case 0:
-      for (let index = 0; index < 3; index++) {
+      for (let index = 0; index < 4; index++) {
         arreglo[index].style.display = "none";
       }
       arreglo[0].style.display = "block";
       break;
 
     case 1:
-      for (let index = 0; index < 3; index++) {
+      for (let index = 0; index < 4; index++) {
         arreglo[index].style.display = "none";
       }
       arreglo[1].style.display = "block";
       break;
 
-    case 2:
-      for (let index = 0; index < 3; index++) {
+      case 2:
+        for (let index = 0; index < 4; index++) {
+          arreglo[index].style.display = "none";
+        }
+        arreglo[2].style.display = "block";
+        break;
+
+        case 3:
+      for (let index = 0; index < 4; index++) {
         arreglo[index].style.display = "none";
       }
-      arreglo[2].style.display = "block";
+      arreglo[3].style.display = "block";
       break;
+      
 
     case 10:
       for (let index = 0; index < 0; index++) {
@@ -226,6 +234,18 @@ function mostrar(n) {
       }
       arreglo[0].style.display = "block";
       break;
+  }
+}
+
+
+function removePlaceholder(input) {
+  input.dataset.placeholder = input.placeholder; // Guarda el placeholder original
+  input.placeholder = ""; // Borra el placeholder
+}
+
+function restorePlaceholder(input) {
+  if (input.value.trim() === "") {
+    input.placeholder = input.dataset.placeholder; // Restaura el placeholder si no hay texto
   }
 }
 

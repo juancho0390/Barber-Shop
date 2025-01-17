@@ -183,6 +183,34 @@
         </div>
     </section>
 
+    <section class="seccion-principal" id="seccion-4">
+        <div class="seccion">CONTACTANOS</div>
+    
+        <form action="https://formsubmit.co/juancho0390@gmail.com" method="POST" class="contenedor-formulario-contacto">
+            <div class="formulario">
+                <input class="inp" type="text" name="name" placeholder="Nombre" onfocus="removePlaceholder(this) "
+                    onblur="restorePlaceholder(this)" autocomplete="off">
+                <br><br>
+                <input class="inp" type="tel" name="phone" placeholder="Telefono" onfocus="removePlaceholder(this)"
+                    onblur="restorePlaceholder(this)" autocomplete="off">
+                <br><br>
+                <input class="inp" type="email" name="email" placeholder="Correo Electronico"
+                    onfocus="removePlaceholder(this)" onblur="restorePlaceholder(this)" autocomplete="off">
+                <br><br>
+                <textarea class="inp2" name="message" cols="30" rows="6" placeholder="Escribe tu mensaje"
+                    onfocus="removePlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
+                <br><br><br>
+                <input class="boton" type="submit" value="Enviar Mensaje">
+                <input type="hidden" name="_next" value="https://juancho0390.github.io/Barber-Shop/">
+                <input type="hidden" name="_captcha" value="false">
+
+            </div>
+        </form>
+    </section>
+
+
+
+
 
 
 
@@ -197,13 +225,19 @@
             <div class="menu" onclick="mostrar(2)">
                 <li>Sedes</li>
             </div>
-            <div class="menu">
+            <div class="menu" onclick="mostrar(3)">
                 <li>Contacto</li>
             </div>
 
             
         </ul>
     </footer>
+
+
+
+
+
+
 </body>
 
 <script src="js/script.js">
