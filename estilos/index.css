@@ -403,7 +403,7 @@ h3 {
 
 /*Parte responsive*/
 
-@media (max-width: 430px) {
+@media (max-width: 819px) {
 
     .titulo {
         font-size: 2rem;
