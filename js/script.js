@@ -252,26 +252,7 @@ function restorePlaceholder(input) {
 }
 
 
-/*funcion para el menu desplegable*/
-/*
-function comportamientoMenu() {
-  const menu = document.querySelector(".nav");
 
-  if(menu.style.transform === "translateX(0px)"){
-    menu.style.transform = "translateX(-600px)"
-  }
-
-  
-
-  if(menu.style.display === "none"){
-    menu.style.display = "flex"
-  }
-  else{
-    menu.style.display = "none"
-
-  }
-
-}*/
 
 function comportamientoMenu() {
   const menu = document.querySelector(".nav");
