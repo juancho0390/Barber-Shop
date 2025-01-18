@@ -269,6 +269,12 @@ function comportamientoMenu() {
 
 
 
+
+
+
+
+
+
 function aplicarEvento() {
   const elemento = document.querySelector(".icono-menu");
   const mediaQuery = window.matchMedia("(max-width: 576px)");
@@ -285,8 +291,16 @@ function aplicarEvento() {
 
 }
 
+
+
+
+
+
 aplicarEvento();
 window.addEventListener('resize', aplicarEvento);
+
+
+
 
 
 

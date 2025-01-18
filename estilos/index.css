@@ -496,7 +496,8 @@ h3 {
     }
 
     li{
-        font-size: 5vw;
+        font-size: 4vw;
+        height: 4vh;
     }
 
     ul {
@@ -520,19 +521,19 @@ h3 {
     }
 
     .icono-menu{
-        background-image: url("/assets/svg/menu.svg");
+        background-image: url("../assets/svg/menu.svg");
         background-color: white;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        max-height: 13vw;
-        height: 500px;
+        max-height: 10vw;
+        height: 200px;
         display: block;
         position: relative;
     }
 
     .nav{
-        transform: translateX(0px);
+        transform: none;
         transition: transform 0.3s ease-in-out;
         padding: 0;
         margin: 0;
