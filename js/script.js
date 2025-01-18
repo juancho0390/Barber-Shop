@@ -238,6 +238,8 @@ function mostrar(n) {
 }
 
 
+
+
 function removePlaceholder(input) {
   input.dataset.placeholder = input.placeholder; // Guarda el placeholder original
   input.placeholder = ""; // Borra el placeholder
@@ -248,6 +250,69 @@ function restorePlaceholder(input) {
     input.placeholder = input.dataset.placeholder; // Restaura el placeholder si no hay texto
   }
 }
+
+
+/*funcion para el menu desplegable*/
+/*
+function comportamientoMenu() {
+  const menu = document.querySelector(".nav");
+
+  if(menu.style.transform === "translateX(0px)"){
+    menu.style.transform = "translateX(-600px)"
+  }
+
+  
+
+  if(menu.style.display === "none"){
+    menu.style.display = "flex"
+  }
+  else{
+    menu.style.display = "none"
+
+  }
+
+}*/
+
+function comportamientoMenu() {
+  const menu = document.querySelector(".nav");
+  const currentTransform = window.getComputedStyle(menu).transform;
+
+  if (currentTransform === "none" || currentTransform === "matrix(1, 0, 0, 1, 0, 0)") {
+    // Si no hay transformación o está en su posición inicial
+    menu.style.transform = "translateY(350px)";
+  } else {
+    // Si ya está desplazado
+    menu.style.transform = "translateY(0px)";
+  }
+}
+
+
+
+function aplicarEvento() {
+  const elemento = document.querySelector(".icono-menu");
+  const mediaQuery = window.matchMedia("(max-width: 576px)");
+
+  if (mediaQuery.matches) {
+    // Si se cumple la media query, agrega el evento
+    elemento.onclick = comportamientoMenu;
+  }
+    
+  else {
+    // Si no se cumple la media query, elimina el evento
+    elemento.onclick = null;
+  }
+
+}
+
+aplicarEvento();
+window.addEventListener('resize', aplicarEvento);
+
+
+
+
+
+
+
 
 
 

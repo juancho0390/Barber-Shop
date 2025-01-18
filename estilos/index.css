@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
+
 }
 
 .contenedor-titulo {
@@ -396,6 +401,12 @@ h3 {
     outline: 1px solid white;
 }
 
+.icono-menu {
+    display: none;
+}
+
+
+
 
 
 
@@ -403,11 +414,13 @@ h3 {
 
 /*Parte responsive*/
 
-@media (max-width: 819px) {
+@media (max-width: 576px) {
 
     .titulo {
         font-size: 10vw;
     }
+
+    
 
     .logo{
         height: 30vw;
@@ -416,6 +429,7 @@ h3 {
 
     .eslogan {
         font-size: 4vw;
+        max-width: 100%;
     }
 
     .seccion {
@@ -435,6 +449,12 @@ h3 {
     .descripcion {
         font-size: 3.5vw;
         padding: 2%;
+    }
+
+    #descripcion {
+        font-size: 3.5vw;
+        padding: 2%;
+        text-align: center;
     }
 
     .contenedor-izq2 {
@@ -457,6 +477,7 @@ h3 {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        height: auto;
     }
 
     .contenedor-der1 {
@@ -464,11 +485,6 @@ h3 {
         justify-items: center;
     }
 
-    .footer {
-        font-size: 0.5rem;
-        position: absolute;
-
-    }
 
     .nombre {
         font-size: 8vw;
@@ -479,11 +495,11 @@ h3 {
     }
 
     .firma {
-        font-size: 3rem;
+        font-size: 25vw;
     }
 
     li{
-        font-size: 1rem;
+        font-size: 5vw;
     }
 
     ul {
@@ -491,12 +507,13 @@ h3 {
         flex-direction: column;
         text-align: center;
         padding: 0;
-        display: none;
-    }
+        
+    } 
+
 
     .foto {
-        width: 200px;
-        height: 200px;
+        width: 50vw;
+        height: 50vw;
         
         
     }
@@ -504,4 +521,25 @@ h3 {
     .personal {
         padding: 2% 0 0 0;
     }
+
+    .icono-menu{
+        background-image: url("/assets/svg/menu.svg");
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        max-height: 13vw;
+        height: 500px;
+        display: block;
+        position: relative;
+    }
+
+    .nav{
+        transform: translateX(0px);
+        transition: transform 0.3s ease-in-out;
+        padding: 0;
+        margin: 0;
+    }
+
+
 }
