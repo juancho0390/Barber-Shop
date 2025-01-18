@@ -406,20 +406,20 @@ h3 {
 @media (max-width: 819px) {
 
     .titulo {
-        font-size: 2rem;
+        font-size: 10vw;
     }
 
     .logo{
-        height: 150px;
-        width: 100px;
+        height: 30vw;
+        width: auto;
     }
 
     .eslogan {
-        font-size: 1rem;
+        font-size: 4vw;
     }
 
     .seccion {
-        font-size: 1rem;
+        font-size: 4vw;
     }
 
     #logo {
@@ -433,7 +433,7 @@ h3 {
     }
 
     .descripcion {
-        font-size: 0.8rem;
+        font-size: 3.5vw;
         padding: 2%;
     }
 
@@ -448,7 +448,7 @@ h3 {
     }
     
     .presentacion {
-        font-size: 0.8rem;
+        font-size: 3.5vw;
         padding: 1% 2% 2%;
     }
 
@@ -471,7 +471,7 @@ h3 {
     }
 
     .nombre {
-        font-size: 1.8rem;
+        font-size: 8vw;
     }
     
     .contenedor-der3 {
