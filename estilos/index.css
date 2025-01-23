@@ -844,7 +844,9 @@ h3 {
     }
 
     body {
-        height: 240vw;
+        height: auto;
+        padding: 0 0 80px 0;
+
     }
 
 
@@ -894,8 +896,8 @@ h3 {
     }
 
     .icono-sede {
-        width: 15vw;
-        height: 15vw;
+        max-height: 10vw;
+        max-width: 10vw;
         background-position: center;
     }
 
@@ -904,12 +906,12 @@ h3 {
     }
 
     .nombre-sede, .titulo-direccion, .titulo-telefono {
-        font-size: 4.5vw;
+        font-size: 3vw;
 
     }
 
     .Direccion, .Telefono {
-        font-size: 3.5vw
+        font-size: 2vw
     }
 
     .sedes {
