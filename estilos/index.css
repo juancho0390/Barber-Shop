@@ -419,8 +419,31 @@ h3 {
 
 /*Parte responsive*/
 
-@media (max-width: 576px) {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones pequeños (menos de 576px) */
+@media (max-width: 576px) {
     .titulo {
         font-size: 10vw;
     }
@@ -518,6 +541,7 @@ h3 {
         height: 4vh;
     }
 
+    
     ul {
         display: flex;
         flex-direction: column;
@@ -525,6 +549,7 @@ h3 {
         padding: 0;
         
     } 
+
 
 
     .foto, .foto-servicio {
@@ -653,11 +678,303 @@ h3 {
         height: auto;
         padding: 0 0 10% 0;
     }
+  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Tablets en vertical (576px a 768px) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .titulo {
+        font-size: 10vw;
+    }
+    .logo{
+        height: 30vw;
+        width: auto;
+    }
+
+    .eslogan {
+        font-size: 4vw;
+        max-width: 100%;
+    }
+
+    .seccion {
+        font-size: 4vw;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .contenedor-central {
+        display: block;
+        flex-direction: row;
+
+    }
+
+    .descripcion {
+        font-size: 3.5vw;
+        padding: 2%;
+    }
+
+    #descripcion {
+        font-size: 3.5vw;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .contenedor-izq2 {
+        justify-items: center;
+    }
+
+    .contenedor-izq {
+        width: auto;
+        display: inline;
+        transform: translateY(10px);
+    }
+    
+    .presentacion {
+        font-size: 3.5vw;
+        padding: 1% 2% 2%;
+    }
+
+    .contenedor-der2, .contenedor-der5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor-der6 {
+        padding: 2%;
+    }
+
+    .descServicio {
+        padding: 2% 0 2% 0;
+        font-size: 3.5vw;
+    }
+
+    .contenedor-der1 {
+        width: 100%;
+        justify-items: center;
+    }
+
+
+    .nombre, .servicio {
+        font-size: 8vw;
+    }
+    
+    .contenedor-der3 {
+        padding: 0;
+    }
+
+    .agendaCita {
+        display: none;
+    }
+
+    .firma {
+        font-size: 25vw;
+    }
+
+    li{
+        font-size: 4vw;
+        height: 4vh;
+    }
 
     
+    /* ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        
+    }  */
+
+
+
+    .foto, .foto-servicio {
+        width: 50vw;
+        height: 50vw;
+        
+        
+    }
+
+    .personal {
+        padding: 2% 0 0 0;
+    }
+
+    /* .icono-menu{
+        background-image: url("../assets/svg/menu.svg");
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        max-height: 10vw;
+        height: 200px;
+        display: block;
+        position: relative;
+    } */
+
+    .nav{
+        transform: none;
+        transition: transform 0.3s ease-in-out;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        height: 240vw;
+    }
+
+
+    /*pagina servicios*/
+
+    .botones-servicios {
+        max-width: auto;
+        justify-items: center;
+        padding: 0 10% 0 10%;
+        
+    }
+
+    #seccion-2 {
+        height: 100%;
+    }
+
+
+    /*pagina sedes*/
+
     
+    .contenedor-sedes-der {
+        width: 95%;
+        padding: 0 0 0 0;
+        /* padding: 70px 0 40px 0; */
+    }
+
+    #map {
+        max-width: 80vw;
+        max-height: 80vw;
+        /* transform: translateY(60px); */
+     } 
+
+    .contenedor-sedes {
+        display: flex;
+        flex-direction: column;
+        /* padding: 70px 0 0 0; */
+    }
+
+    .contenedor-sedes-izq {
+        height: auto;
+        padding: 15% 0 0 0;
+        /* transform: translateY(10px); */
+    }
+
+    menu {
+        padding: 0;
+    }
+
+    .icono-sede {
+        width: 15vw;
+        height: 15vw;
+        background-position: center;
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+
+    .nombre-sede, .titulo-direccion, .titulo-telefono {
+        font-size: 4.5vw;
+
+    }
+
+    .Direccion, .Telefono {
+        font-size: 3.5vw
+    }
+
+    .sedes {
+        height: auto;
+        align-items: center;
+        gap: 4%;
+    }
+
+    #seccion-3 {
+        height: auto;
+        padding: 0 0 10% 0;
+    }
+
+
+    /*seccion-4*/
+
+    .formulario {
+        width: 90%;
+        padding: 4% 2% 0 2%;
+    }
+
+    .contenedor-formulario-contacto {
+        padding: 2% 0;
+    }
+
+    #seccion-4 {
+        height: auto;
+        padding: 0 0 10% 0;
+    }
+  }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Laptops y tablets horizontales (768px a 1200px) */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Pantallas grandes (más de 1200px) */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+  }
