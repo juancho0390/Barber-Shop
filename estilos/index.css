@@ -533,7 +533,7 @@ h3 {
     }
 
     li{
-        font-size: 4vw;
+        font-size: 3vw;
         height: 4vh;
     }
 
@@ -565,7 +565,7 @@ h3 {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        max-height: 10vw;
+        max-height: 4vw;
         height: 200px;
         display: block;
         position: relative;
