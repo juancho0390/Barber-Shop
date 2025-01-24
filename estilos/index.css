@@ -413,10 +413,6 @@ h3 {
 
 
 
-
-
-
-
 /*Parte responsive*/
 
 
@@ -442,8 +438,8 @@ h3 {
 
 
 
-/* Smartphones pequeños (menos de 576px) */
-@media (max-width: 576px) {
+/* Smartphones pequeños (menos de 768px) */
+@media (max-width: 768px) {
     .titulo {
         font-size: 10vw;
     }
@@ -703,8 +699,8 @@ h3 {
 
 
   
-  /* Tablets en vertical (576px a 768px) */
-  @media (min-width: 576px) and (max-width: 768px) {
+
+  @media (min-width: 768px) and (max-width: 1200px){
     .titulo {
         font-size: 10vw;
     }
@@ -803,13 +799,13 @@ h3 {
     }
 
     
-    /* ul {
+    ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding: 0;
         
-    }  */
+    } 
 
 
 
@@ -824,7 +820,7 @@ h3 {
         padding: 2% 0 0 0;
     }
 
-    /* .icono-menu{
+    .icono-menu{
         background-image: url("../assets/svg/menu.svg");
         background-color: white;
         background-repeat: no-repeat;
@@ -834,7 +830,7 @@ h3 {
         height: 200px;
         display: block;
         position: relative;
-    } */
+    }
 
     .nav{
         transform: none;
@@ -941,42 +937,6 @@ h3 {
         height: auto;
         padding: 0 0 10% 0;
     }
-  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  /* Laptops y tablets horizontales (768px a 1200px) */
-  @media (min-width: 768px) and (max-width: 1200px) {
-    body {
-      font-size: 18px;
-    }
-  }
-  
-  /* Pantallas grandes (más de 1200px) */
-  @media (min-width: 1200px) {
-    body {
-      font-size: 20px;
-    }
+    
   }

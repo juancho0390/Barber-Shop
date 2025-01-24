@@ -277,7 +277,7 @@ function comportamientoMenu() {
 
 function aplicarEvento() {
   const elemento = document.querySelector(".icono-menu");
-  const mediaQuery = window.matchMedia("(max-width: 576px)");
+  const mediaQuery = window.matchMedia("(max-width: 1200px)");
 
   if (mediaQuery.matches) {
     // Si se cumple la media query, agrega el evento
